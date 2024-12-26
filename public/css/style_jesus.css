@@ -12,7 +12,7 @@ button{
 }
 
 button span{
-    background-color: rgb(5, 32, 32);
+    background-color: rgb(63, 185, 185);
     padding: 16px 24px;
     border-radius: 8px;
     transition: .4s;
