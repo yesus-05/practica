@@ -1,36 +1,24 @@
-body {
-    font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
-    margin: 0;
-    padding: 0;
+button{
+    border: 0;
+    background-image: linear-gradient(150deg, rgb(240, 0, 164));
+    border-radius: 8px;
+    color: #fff;
+    display: flex;
+    font-size: 20px;
+    padding: 5px;
+    cursor: pointer;
+    transition: .4s;
+    
 }
 
-header {
-    background-color: #4CAF50;
-    color: rgb(221, 34, 34);
-    text-align: center;
-    padding: 1em 0;
+button span{
+    background-color: rgb(5, 32, 32);
+    padding: 18px 26px;
+    border-radius: 8px;
+    transition: .4s;
+
 }
 
-main {
-    padding: 20px;
-}
-
-h1 {
-    color: #d30404;
-}
-
-p {
-    color: #666;
-    line-height: 1.6;
-}
-
-footer {
-    background-color: #4CAF50;
-    color: white;
-    text-align: center;
-    padding: 1em 0;
-    position: fixed;
-    width: 100%;
-    bottom: 0;
+button:active {
+    transform: scale(0.9);
 }
