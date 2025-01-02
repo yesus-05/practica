@@ -9,6 +9,10 @@ try {
     console.log("El catch captura el error")
 }
 
+function suma(numero){
+    return numero % numero
+}
+console.log(suma())
 
 window.onload = function (){
     document.getElementById("todo").classList.add("loaded");
