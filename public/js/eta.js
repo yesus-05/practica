@@ -11,5 +11,5 @@ try {
 
 
 window.onload = function (){
-    document.getElementById("seccion").classList.add("loaded");
+    document.getElementById("todo").classList.add("loaded");
 };
