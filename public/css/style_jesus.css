@@ -22,3 +22,10 @@ button span{
 button:active {
     transform: scale(0.9);
 }
+
+div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}   
