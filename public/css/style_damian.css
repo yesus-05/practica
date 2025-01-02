@@ -12,11 +12,16 @@
     width: 300px;
     height: 250px;
     text-align: center;
+    position:relative;
 }
 
-body{
-    text-align: center;
+#fly{
+    color-interpolation-filters: linearRGB;
+    color-scheme: white;
+      
 }
+
+
 
 button{
     border: 0cap;
@@ -41,4 +46,16 @@ button span {
 
 button:active { 
     transform: scale(0,9);
+}
+
+#todo {
+    background-color: whitesmoke;
+    transform: translateZ(360deg);
+    transition: transform 5s ease;
+
+}
+
+
+div.loaded{
+    transform: rotate(360deg);
 }

@@ -8,3 +8,8 @@ try {
 } catch (error) {
     console.log("El catch captura el error")
 }
+
+
+window.onload = function (){
+    document.getElementById("todo").classList.add("loaded");
+};
