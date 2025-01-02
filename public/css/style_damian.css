@@ -14,8 +14,30 @@
     text-align: center;
 }
 
+#fly{
+    color: cornflowerblue;
+    display: grid;
+    grid: repeat(20, 600px);
+    animation-duration: 3s;
+    animation-name: slidein;
+
+    @keyframes slidein {
+        from {
+          margin-left: 100%;
+          width: 300%;
+        }
+      
+        to {
+          margin-left: 0%;
+          width: 100%;
+        }
+      }
+      
+}
+
 body{
     text-align: center;
+    background-color: lightblue;
 }
 
 button{
@@ -41,4 +63,20 @@ button span {
 
 button:active { 
     transform: scale(0,9);
+}
+
+#seccion {
+    width: 200px;
+    height: 200px;
+    background-color: darkturquoise;
+    transform-box: fill-box;
+    transform: rotate(0deg);
+    transition: transform 1s ease;
+
+}
+
+
+div.loaded{
+    transform: rotate(360deg);
+
 }
