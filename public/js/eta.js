@@ -18,12 +18,31 @@ window.onload = function (){
     document.getElementById("todo").classList.add("loaded");
 }; */
 
-/*const nombre = prompt("Cual es tu nombre?")
+const nombre = prompt("Cual es tu nombre?")
 
 function saludar(nombre) {
     console.log("Hola"+ " "+ nombre+" "+ "Como estas?")
 }
+document.open()
+document.write('<h1>hola '+ nombre+'</h1>')
 
-let saludo = console.log(saludar(nombre))*/
+
+
+
+
+//OPeradores aritmeticos
+let a = 3
+let b = 4
+//console.log(a%b)
+
+//Incrementar
+console.log(++a);
+console.log(a);
+
+//Decremento
+console.log(--a)
+console.log(a)
+
+//
 
 
