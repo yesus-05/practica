@@ -1,69 +1,68 @@
-button{
-    border: 0;
-    background-image: linear-gradient(150deg, rgb(240, 0, 164));
+button {
+    border: none;
+    background-image: linear-gradient(150deg, rgb(240, 0, 164), rgb(255, 102, 204));
     border-radius: 8px;
     color: #fff;
     display: flex;
     font-size: 18px;
-    padding: 6x;
+    padding: 10px 20px;
     cursor: pointer;
-    transition: .4s;
-    
+    transition: transform 0.4s, background-image 0.4s;
 }
 
-button span{
+button span {
     background-color: rgb(63, 185, 185);
     padding: 15px 25px;
     border-radius: 8px;
-    transition: .4s;
-
+    transition: background-color 0.4s;
 }
 
 button:active {
     transform: scale(0.9);
 }
 
-div{
+div {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
-}   
+}
 
-*{
-    font-family: 'nunito', sans-serif;
-    font-weight: bould;
+* {
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-body{
+body {
     display: flex;
     background-color: #f0f0f0;
     justify-content: center;
+    align-items: center;
     min-height: 100vh;
     background: mediumvioletred;
 }
 
-.fondo{
+.fondo {
     display: flex;
-    justify-self: center;
+    justify-content: center;
     align-items: center;
     width: 60px;
     height: 60px;
-    background:blueviolet;
-    border-radius:8 px;
+    background: blueviolet;
+    border-radius: 8px;
     padding: 10px 20px;
-    box-shadow:0 0 10px rgba(0,0,0, .3);
-    transition: .5s ease;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    transition: width 0.5s ease;
 }
 
-.fondo:hover{
-   width: 500px;  
+.fondo:hover {
+    width: 500px;
 }
 
-input{
+input {
     width: 100%;
     height: 100%;
     background: transparent;
@@ -73,9 +72,8 @@ input{
     color: #eb4343;
 }
 
-i{
+i {
     font-size: 22px;
     color: #eb4343;
     cursor: pointer;
-
 }
