@@ -1,4 +1,4 @@
-var numero = 10
+/*var numero = 10
 
 try {
     console.log(numero / numero)
@@ -24,7 +24,7 @@ function saludar(nombre) {
     console.log("Hola" + " " + nombre + " " + "Como estas?")
 }
 document.open()
-document.write('<h1>hola ' + nombre + '</h1>')*/
+document.write('<h1>hola ' + nombre + '</h1>')
 
 
 
@@ -194,5 +194,18 @@ while (fr <= 10) {
     } else {
         fr++
     }
-} 
+}
+*/
 
+function changeColor(newColor){
+    var nevo = document.getElementById("todo");
+    nevo.style.backgroundColor = newColor;
+}
+/*function cambiaTexto("Cyan",){
+    let tex = document.querySelectorAll("div.p")
+    if (nevo="Blue"){
+        tex.style.color = cyan
+    } else{
+        tex.style.color = blue
+    }
+}*/
