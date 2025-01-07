@@ -29,3 +29,53 @@ div{
     align-items: center;
     height: 100vh;
 }   
+
+*{
+    font-family: 'nunito', sans-serif;
+    font-weight: bould;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    background-color: #f0f0f0;
+    justify-content: center;
+    min-height: 100vh;
+    background: mediumvioletred;
+}
+
+.fondo{
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    width: 60px;
+    height: 60px;
+    background:blueviolet;
+    border-radius:8 px;
+    padding: 10px 20px;
+    box-shadow:0 0 10px rgba(0,0,0, .3);
+    transition: .5s ease;
+}
+
+.fondo:hover{
+   width: 500px;  
+}
+
+input{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    color: #eb4343;
+}
+
+i{
+    font-size: 22px;
+    color: #eb4343;
+    cursor: pointer;
+
+}
